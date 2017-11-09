@@ -19,6 +19,7 @@ public class BigListAdapter extends BaseAdapter {
     public BigListAdapter(List<GigEntity> blist, Context context) {
         this.blist = blist;
         this.context = context;
+        //sss
     }
 
     @Override
@@ -29,7 +30,7 @@ public class BigListAdapter extends BaseAdapter {
     @Override
     public Object getItem(int position) {
         return blist.get(position);
-        //nihao      
+        //nihao
     }
 
     @Override
