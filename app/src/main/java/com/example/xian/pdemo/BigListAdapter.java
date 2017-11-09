@@ -29,7 +29,7 @@ public class BigListAdapter extends BaseAdapter {
     @Override
     public Object getItem(int position) {
         return blist.get(position);
-        //nihao
+        //nihao      
     }
 
     @Override
